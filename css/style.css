@@ -1,0 +1,38 @@
+.header, .subheader, .buttons {
+    font-family: montserrat;
+    width: 100%;
+    text-align: center;
+}
+
+.subheader {
+    height: 55px;
+    font-size: 12px;
+}
+
+#rock-button, #paper-button, #scissors-button {
+    font-family: montserrat;
+    display: inline-block;
+    color: #fff;
+    background-color: #e43b2c; // #0075b2
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0px 5px;
+    font-size: 20px;
+}
+
+#results {
+    text-align: center;
+    font-family: montserrat;
+    font-size: 1.17em;
+    font-weight: bold;
+    padding-top: 33px;
+}
+
+#score {
+    text-align: center;
+    font-family: montserrat;
+    font-size: 1.17em;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
